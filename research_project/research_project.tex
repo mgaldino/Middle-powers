@@ -87,181 +87,281 @@
 \textsf{Interact} layout + Chicago author-date reference style)}
 
 
-\author{\name{A. N. Author$^{a}$, John Smith$^{b}$, Dominik
-Leutnant$^{c, \dagger, \ddagger}$}
-\affil{$^{a}$Taylor \& Francis, 4 Park Square, Milton Park, Abingdon,
-UK; $^{b}$Institut für Informatik, Albert-Ludwigs-Universität, Freiburg,
-Germany; $^{c}$Muenster University of Applied Sciences - Institute for
-Infrastructure, Water, Resources, Environment, Correnstr. 25, 48149
-Münster, Germany}
+\author{\name{M. Galdino$^{a}$}
+\affil{$^{a}$Political Science Department, Universidade de são Paulo,
+Brazil.}
 }
 
-\thanks{CONTACT A. N.
-Author. Email: \href{mailto:latex.helpdesk@tandf.co.uk}{\nolinkurl{latex.helpdesk@tandf.co.uk}}, John
-Smith. Email: \href{mailto:john.smith@uni-freiburg.de}{\nolinkurl{john.smith@uni-freiburg.de}}, Dominik
-Leutnant. Email: \href{mailto:leutnant@fh-muenster.de}{\nolinkurl{leutnant@fh-muenster.de}}}
+\thanks{CONTACT M.
+Galdino. Email: \href{mailto:mgaldino@usp.br}{\nolinkurl{mgaldino@usp.br}}}
 
 \maketitle
 
 \begin{abstract}
-This template is for authors who are preparing a manuscript for a Taylor
-\& Francis journal using the \LaTeX~document preparation system and the
-`interact\} class file, which is available via selected journals' home
-pages on the Taylor \& Francis website.
+O conceito de potências médias, apesar de sua prevalência na literatura
+de Relações Internacionais (RI), enfrenta um desafio crítico de
+ambiguidade conceitual que limita sua utilidade analítica. Esta pesquisa
+visa abordar esse desafio propondo um novo arcabouço teórico que integra
+a teoria dos jogos não cooperativa, especificamente através da adaptação
+dos conceitos de estratégias complementares e substitutas. Ao fazer
+isso, o projeto tem como objetivo superar as divisões teóricas
+existentes e promover uma compreensão mais precisa e abrangente das
+potências médias. Tradicionalmente, a RI concentrou-se na teoria do
+comportamento das grandes potências, negligenciando uma teoria inclusiva
+que explique o comportamento de estados de diferentes magnitudes. Este
+estudo argumenta pela necessidade de uma teoria do comportamento estatal
+que englobe não apenas as grandes potências, mas também as médias e
+pequenas, oferecendo uma maneira empírica de diferenciar esses grupos de
+países. Ao unificar as variáveis explicativas relacionadas ao poder,
+comportamento e identidade dos estados, propomos um caminho para uma
+validação empírica robusta, estabelecendo um programa de pesquisa
+progressivo no sentido Lakatos. Além de sua contribuição teórica, este
+projeto delineia um desenho de pesquisa empírica, priorizando o estudo
+de cabos diplomáticos como fontes primárias. Essas fontes são
+consideradas essenciais para testar as hipóteses derivadas de nossa
+abordagem teórica, possibilitando uma avaliação detalhada das
+estratégias adotadas pelas potências médias no cenário internacional.
+Assim, o projeto não apenas promete clarificar a categorização de
+potências médias, mas também fornece uma base para futuras investigações
+empíricas neste campo, contribuindo significativamente para a literatura
+existente e oferecendo novas ferramentas analíticas para pesquisadores e
+formuladores de políticas.
 \end{abstract}
 
 \begin{keywords}
-Sections; lists; figures; tables; mathematics; fonts; references;
-appendices
+Potências Médias; Teoria dos Jogos; Estratégias Complementares;
+Estratégias Substitutas; Cabos Diplomáticos;
 \end{keywords}
 
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
+\hypertarget{introduuxe7uxe3o}{%
+\section{Introdução}\label{introduuxe7uxe3o}}
 
-In order to assist authors in the process of preparing a manuscript for
-a journal, the Taylor \& Francis `\textsf{Interact}' layout style has
-been implemented as a \LaTeXe~class file based on the \texttt{article}
-document class. A \textsc{Bib}\TeX~bibliography style file and a sample
-bibliography are also provided in order to assist with the formatting of
-your references.
+A Teoria das Potências Médias, desde seu início (cf.
+\citet{chaudhuri_1969}; \citet{holbraad_71}), enfrentou problemas de
+clareza analítica. A dificuldade em conceituar quem seriam as potências
+médias, seja por alguma medida objetiva de poder (combinando um ou mais
+indicadores) ou por seu comportamento, é reveladora dessa confusão
+analítica. A despeito disso, a literatura continua a usar o conceito,
+variando na forma de defini-lo e operacionalizá-lo empiricamente, assim
+como nas várias tentativas de resolver os problemas conceituais.
 
-Commands that differ from or are provided in addition to standard
-\LaTeXe~are described in this document, which is \emph{not} a substitute
-for a \LaTeXe~tutorial.
+A concepção mais tradicional de potência média é baseada na posição que
+os estados ocupam no sistema internacional (por exemplo,
+\citet{holbraad_84}; \citet{cooper_etal_93}; \citet{shin_12}). Assim,
+países com capacidades médias ou medianas teriam um comportamento de
+política externa diferente ou previsível em relação a estados com maior
+ou menor capacidade. Essa diferenciação pode se dar tanto pela formação
+de interesses distintos quanto pelo estilo ou estratégia de atuação na
+esfera internacional (cf. \citet{cooper_11} para uma revisão da
+literatura). No entanto, isso não é suficiente para operacionalizar o
+conceito de maneira consistente, uma vez que não há clareza sobre qual
+medida de capacidade deve ser usada (seja ela militar, econômica,
+diplomática ou uma combinação dessas e de outras variáveis), a posição
+relativa pode mudar dependendo da região geográfica considerada e a
+inclusão de variáveis como participação em alianças, ao modificar a
+medida de poder, acaba trazendo confusão analítica ao conceito
+(\citet{cooper_11}). O resultado dessa confusão é a inexistência de uma
+lista definida, no tempo e espaço, de quais países seriam potências
+médias, o que torna inviável testar se, de fato, há um comportamento
+distintivo na política externa desses países.
 
-The \texttt{interactcadsample.tex} file can be used as a template for a
-manuscript by cutting, pasting, inserting and deleting text as
-appropriate, using the preamble and the \LaTeX~environments provided
-(e.g.~\texttt{\textbackslash{}begin\{abstract\}},
-\texttt{\textbackslash{}begin\{keywords\}}).
+Em segundo lugar, há teorias focadas no comportamento desses estados. O
+que seria distintivo das potências médias seria seu comportamento, tal
+como a adesão ao multilateralismo, a tentativa de agir como ``bom
+cidadão'', a capacidade de atuar como mediador de conflitos, etc.
+(\citet{schiavon_dominguez_16}; \citet{stephen_13}; \citet{welsh_04}).
 
-\hypertarget{the-class-file}{%
-\subsection{\texorpdfstring{The \textsf{Interact} class
-file}{The  class file}}\label{the-class-file}}
+O problema óbvio dessa abordagem é a impossibilidade de explicar
+comportamento com base em uma categorização do comportamento devido à
+óbvia circularidade. Além disso, essa abordagem tampouco contribuiu, ao
+menos, para observar um padrão de comportamento dos países
+tradicionalmente concebidos como potências médias. Alguns estudos
+combinam capacidades e comportamento para classificar os países, mas
+isso não resolve o problema de circularidade (\citet{cooper_11}).
 
-The \texttt{interact} class file preserves the standard
-\LaTeXe~interface such that any document that can be produced using
-\texttt{article.cls} can also be produced with minimal alteration using
-the \texttt{interact} class file as described in this document.
+Por fim, mais recentemente, tem havido tentativas de conceituar potência
+média a partir da identidade dos estados, em particular aqueles que se
+autodefinem como potências médias (\citet{hynek_07};
+\citet{gecelovsky_09}; \citet{debhal_23}).
 
-If your article is accepted for publication it will be typeset as the
-journal requires in Minion Pro and/or Myriad Pro. Since most authors
-will not have these fonts installed, the page make-up is liable to alter
-slightly with the change of font. Also, the \texttt{interact} class file
-produces only single-column format, which is preferred for peer review
-and will be converted to two-column format by the typesetter if
-necessary during preparation of the proofs. Please therefore do not try
-to match the typeset format exactly, but use the standard \LaTeX~fonts
-instead and ignore details such as slightly long lines of text or
-figures/tables not appearing in exact synchronization with their
-citations in the text: these details will be dealt with by the
-typesetter. Similarly, it is unnecessary to spend time addressing
-warnings in the log file -- if your .tex file compiles to produce a PDF
-document that correctly shows how you wish your paper to appear, such
-warnings will not prevent your source files being imported into the
-typesetter's program.
+Esse espectro conceitual sugere uma continuidade com a tradição da RI no
+estudo das grandes potências. Tradicionalmente, a RI focou em uma teoria
+do comportamento das grandes potências, deixando um vazio analítico
+sobre o comportamento estatal além dessas. A categorização qualitativa
+de ``grande potência'' ou ``superpotência'' indica que outras
+categorias, como as ``potências médias'', podem ser analiticamente
+úteis, embora a sua utilidade ainda seja um ponto de debate intenso.
 
-\hypertarget{submission-of-manuscripts-prepared-using}{%
-\subsection{\texorpdfstring{Submission of manuscripts prepared using
-\emph{\LaTeX}}{Submission of manuscripts prepared using }}\label{submission-of-manuscripts-prepared-using}}
+Ante a complexidade desse cenário, parece claro que, para redescobrir a
+utilidade analítica do conceito de potências médias, é necessário um
+trabalho teórico e empírico de grandes proporções. Do lado teórico,
+parece-nos claro que qualquer que seja o marcador ou marcadores que
+distingam potências médias, essas variáveis precisam estar relacionadas
+também ao comportamento dos estados de outros tamanhos. Isso sugere que
+a pesquisa empírica nessa área precisa ser comparativa e incluir não
+apenas as pretensas potências médias, mas também os países que estariam
+em outras categorias.
 
-Manuscripts for possible publication should be submitted to the Editors
-for review as directed in the journal's Instructions for Authors, and in
-accordance with any technical instructions provided in the journal's
-ScholarOne Manuscripts or Editorial Manager site. Your \LaTeX~source
-file(s), the class file and any graphics files will be required in
-addition to the final PDF version when final, revised versions of
-accepted manuscripts are submitted.
+O presente trabalho, portanto, parte dessa ambição como horizonte de
+pesquisa. Por outro lado, este é um projeto laborioso e que exigirá
+esforço colaborativo para ser empreendido. Assim, o que apresentamos a
+seguir é nossa estratégia para um primeiro passo nessa direção, sem a
+pretensão de delinear o caminho todo a ser percorrido. Além de ser mais
+realista, parece-nos mais efetivo, na medida em que facilita a correção
+de rotas que o trabalho de pesquisa e as descobertas não antecipadas
+demandam.
 
-Please ensure that any author-defined macros used in your article are
-gathered together in the preamble of your .tex file, i.e.~before the
-\texttt{\textbackslash{}begin\{document\}} command. Note that if serious
-problems are encountered in the coding of a document (missing
-author-defined macros, for example), the typesetter may resort to
-rekeying it.
+No nível teórico, o presente trabalho propõe uma solução ancorada em uma
+adaptação dos conceitos de estratégias complementares e substitutas da
+teoria dos jogos não cooperativa. Esta abordagem promete superar a
+ambiguidade conceitual em torno das potências médias, unificando os
+comportamentos dos estados numa única teoria que explique a
+diferenciação entre os três grupos de países - grandes, médias e
+pequenas potências. Argumentamos que tal teoria, ao enfatizar a
+centralidade das relações entre estratégias dos países em diferentes
+arenas de conflito (se complementares ou substitutas), abre caminho para
+uma nova agenda de pesquisa empírica.
 
-\hypertarget{using-the-interact-class-file}{%
-\section{\texorpdfstring{Using the \texttt{interact} class
-file}{Using the interact class file}}\label{using-the-interact-class-file}}
+No nível teórico, o presente trabalho propõe uma solução ancorada em uma
+adaptação dos conceitos de estratégias complementares e substitutas da
+teoria dos jogos não cooperativa. Esta abordagem promete superar a
+ambiguidade conceitual em torno das potências médias, unificando os
+comportamentos dos estados numa única teoria que explique a
+diferenciação entre os três grupos de países - grandes, médias e
+pequenas potências. Argumentamos que tal teoria, ao enfatizar a
+centralidade das relações entre estratégias dos países em diferentes
+arenas de conflito (se complementares ou substitutas), abre caminho para
+uma nova agenda de pesquisa empírica.
 
-For convenience, simply copy the \texttt{interact.cls} file into the
-same directory as your manuscript files (you do not need to install it
-in your \TeX~distribution). In order to use the \texttt{interact}
-document class, replace the command
-\texttt{\textbackslash{}documentclass\{article\}} at the beginning of
-your document with the command
-\texttt{\textbackslash{}documentclass\{interact\}}.
+Do ponto de vista empírico, pretendemos construir uma base de dados de
+cabos diplomáticos de países em perspectiva comparada, consistindo de
+países dos mais variados tamanhos. A recente proliferação das leis de
+acesso à informação e iniciativas de dados abertos mundo afora
+(\citet{zuffova_20}) possibilita que, finalmente, tal tarefa possa ser
+empreendida com boa chance de sucesso.
 
-The following document-class options should \emph{not} be used with the
-\texttt{interact} class file:
+Este estudo busca, portanto, consolidar a teoria de potências médias
+como um programa de pesquisa progressivo, no sentido proposto por
+Lakatos, mediante a conexão de variáveis explicativas - sejam elas
+relativas a poder, comportamento ou identidade - com hipóteses causais
+testáveis empiricamente.
 
-\begin{itemize}
-\tightlist
-\item
-  \texttt{10pt}, \texttt{11pt}, \texttt{12pt} -- unavailable;
-\item
-  \texttt{oneside}, \texttt{twoside} -- not necessary, \texttt{oneside}
-  is the default;
-\item
-  \texttt{leqno}, \texttt{titlepage} -- should not be used;
-\item
-  \texttt{twocolumn} -- should not be used (see
-  Subsection\textasciitilde{}\ref{class});
-\item
-  \texttt{onecolumn} -- not necessary as it is the default style.
-\end{itemize}
+A abordagem proposta oferece um caminho promissor para a superação dos
+desafios conceituais e metodológicos que têm caracterizado o estudo das
+potências médias até o momento. Por fim, pretendemos ilustrar essa
+perspectiva com um estudo de caso focado no Brasil e EUA, estudando os
+cabos diplomáticos disponíveis para ambos os países.
 
-To prepare a manuscript for a journal that is printed in A4 (two column)
-format, use the \texttt{largeformat} document-class option provided by
-\texttt{interact.cls}; otherwise the class file produces pages sized for
-B5 (single column) format by default. The \texttt{geometry} package
-should not be used to make any further adjustments to the page
-dimensions.
+Nas próximas seções, desenvolvemos um pouco mais o arcabouço teórico,
+para ilustrar o tipo de teorização que será realizada, e, em seguida,
+apresentamos como se dará a pesquisa empírica no estudo de caso que
+pretendemos realizar.
 
-\hypertarget{additional-features-of-the-interact-class-file}{%
-\section{\texorpdfstring{Additional features of the \texttt{interact}
-class
-file}{Additional features of the interact class file}}\label{additional-features-of-the-interact-class-file}}
+\hypertarget{modelo-teuxf3rico}{%
+\subsection{Modelo Teórico}\label{modelo-teuxf3rico}}
 
-\hypertarget{title-authors-names-and-affiliations-abstracts-and-article-types}{%
-\subsection{Title, authors' names and affiliations, abstracts and
-article
-types}\label{title-authors-names-and-affiliations-abstracts-and-article-types}}
+Em um artigo seminal sobre a aplicação da teoria dos jogos à economia,
+\citet{bulow_etal_85} introduziu a ideia de jogos com estratégias
+complementares ou substitutas. Considerando as estratégias como
+variáveis contínuas (e.g., nível de investimento), estratégias são ditas
+complementares se o aumento no nível de uma estratégia por um agente
+torna ótimo para outro agente aumentar o nível de sua própria
+estratégia. Matematicamente, isso ocorre quando a derivada parcial
+cruzada do payoff de um agente, em relação à sua estratégia e à do outro
+jogador, é positiva. Em contraste, estratégias são substitutas quando o
+aumento na estratégia de um agente leva o outro a reduzir a sua,
+evidenciado por uma derivada parcial cruzada negativa.
 
-\hypertarget{abbreviations}{%
-\subsection{Abbreviations}\label{abbreviations}}
+O exemplo arquetípico apresentado por \citet{bulow_etal_1985} envolve
+dois mercados, \(1\) e \(2\), com demandas independentes onde a empresa
+\(A\) monopoliza o primeiro mercado e compete com a empresa \(B\) no
+segundo. Como os produtos de \(A\) e \(B\) no mercado \(2\) são
+substitutos, o modelo de equilíbrio de Cournot demonstra que um
+comportamento mais agressivo de \(A\) no mercado \(1\) induz a empresa
+\(B\) a ser menos agressiva no mercado \(2\), evidenciando a
+substitutividade das estratégias.
 
-A list of abbreviations may be included if required, enclosed within an
-\texttt{abbreviations} environment,
-i.e.~\texttt{\textbackslash{}begin\{abbreviations\}}\ldots\texttt{\textbackslash{}end\{abbreviations\}},
-immediately following the \texttt{abstract} environment.
+Esse modelo tem implicações significativas ao ser transportado para o
+contexto das Relações Internacionais, sugerindo que o ganho de um estado
+\(A\) derivado de uma mudança em um jogo \(1\) é afetado pela sua
+posição em um jogo \(B\), seja como grande potência (monopolista),
+potência média (oligopolista) ou pequena potência (competidor puro).
 
-\hypertarget{keywords}{%
-\subsection{Keywords}\label{keywords}}
+A aplicação deste arcabouço às Relações Internacionais permite discutir
+como grandes potências distinguem-se das potências médias pela
+capacidade de alterar os termos do jogo \(1\), induzindo comportamentos
+específicos nos países envolvidos. Da mesma forma, potências médias
+podem adotar comportamentos de coalizões empreendedoras de norma
+(\citet{ravenhill_2018}), alterando exogenamente os custos para países
+em um jogo A, para induzir mudanças de comportamento em um jogo B.
 
-A list of keywords may be included if required, enclosed within a
-\texttt{keywords} environment,
-i.e.~\texttt{\textbackslash{}begin\{keywords\}}\ldots\texttt{\textbackslash{}end\{keywords\}}.
-Additional keywords in other languages (preceded by a translation of the
-word \texttt{keywords}) may also be included within the
-\texttt{keywords} environment if required.
+Para ilustrar o potencial analítico desse arcabouço, propomos um esboço
+informal de dois jogos distintos, demonstrando como a presença de
+estratégias complementares ou substitutas explica certos comportamentos
+e auxilia na categorização dos tamanhos das potências.
 
-\hypertarget{subject-classification-codes}{%
-\subsection{Subject classification
-codes}\label{subject-classification-codes}}
+Diferentemente da literatura existente, nossa abordagem torna a
+categorização de potência média dependente da estrutura da conectividade
+dos jogos. Assim, podemos clarificar a confusão conceitual presente na
+definição de potências médias na literatura, utilizando medidas de
+capacidade que influenciam a estrutura (complementar ou substituta) das
+estratégias, enquanto incorporamos variáveis contextuais (como a
+participação em alianças) e a identidade dos atores, na medida em que
+afetam suas preferências. Além disso, ao propor um mecanismo específico,
+podemos testar empiricamente as hipóteses derivadas dos modelos sem
+incorrer em circularidade argumentativa.
 
-AMS, JEL or PACS classification codes may be included if required. The
-\texttt{interact} class file provides an \texttt{amscode} environment,
-i.e.~\texttt{\textbackslash{}begin\{amscode\}}\ldots\texttt{\textbackslash{}end\{amscode\}},
-a \texttt{jelcode} environment,
-i.e.~\texttt{\textbackslash{}begin\{jelcode\}}\ldots\texttt{\textbackslash{}end\{jelcode\}},
-and a \texttt{pacscode} environment,
-i.e.~\texttt{\textbackslash{}begin\{pacscode\}}\ldots\texttt{\textbackslash{}end\{pacscode\}}
-to assist with this.
+\hypertarget{modelos-de-estratuxe9gias-complementares-e-substitutas}{%
+\subsection{Modelos de Estratégias Complementares e
+Substitutas}\label{modelos-de-estratuxe9gias-complementares-e-substitutas}}
 
-\hypertarget{additional-footnotes-to-the-title-or-authors-names}{%
-\subsection{Additional footnotes to the title or authors'
-names}\label{additional-footnotes-to-the-title-or-authors-names}}
+Considere um jogo entre dois estados, \(A\) e \(B\), disputando um
+território de valor \(X = [0,1]\), conforme proposto por Fearon (1995).
+O estado \(A\) prefere um resultado próximo de \(1\), enquanto \(B\)
+favorece um resultado próximo de \(0\). Na negociação diplomática para o
+conflito, o resultado será denotado por \(x \in X\), com as utilidades
+\(u_A(x)\) para \(A\) e \(u_B(1-x)\) para \(B\). Cada estado possui uma
+utilidade esperada da guerra dada por: \(p_a u(1) + (1-p)u(0) - c_a\)
+para \(A\) e uma fórmula similar para \(B\), com custo \(c_b\). Segundo
+o modelo de barganha de Rubinstein, com horizonte infinito onde as
+partes fazem ofertas alternadas e excluindo temporariamente a opção de
+guerra, o equilíbrio de Nash perfeito em sub-jogo (sem a opção de
+guerra) seria dado por \((x, 1-x)\), onde
+\(x = \frac{1 -\delta_A}{1 - \delta_A \delta_B}\). A opção da guerra, no
+entanto, restringe os valores de \((x, 1-x)\) que são preferíveis à
+guerra, com \(x > \mathbb{E}[u^g_A]\) e \(1 - x > \mathbb{E}[u^g_B]\)
+para que a opção diplomática seja estritamente preferível para ambos.
+
+A utilidade de estratégias complementares ou substitutas neste contexto
+torna-se evidente ao considerar diferentes cenários envolvendo grandes
+potências, potências médias e países pequenos. Por exemplo, em um
+cenário onde o estado \(A\) é uma grande potência, a decisão sobre a
+alocação de recursos militares próximo à fronteira em conflito pode
+aumentar a sua probabilidade de vitória, influenciando assim as
+estratégias de negociação.
+
+Em contraste, em um conflito sobre a expropriação de uma empresa
+estrangeira, como um setor de extração de petróleo, a presença de um
+aliado do país \(B\) pode compelir o país \(A\) a ceder mais na
+negociação para não prejudicar a aliança com o país \(C\). Isso ilustra
+como estratégias em um jogo podem influenciar os resultados de outro.
+
+\hypertarget{literatura-relacionada}{%
+\subsection{Literatura Relacionada}\label{literatura-relacionada}}
+
+A interconexão entre jogos distintos e suas consequências nas decisões
+dos jogadores é um conceito que já foi explorado no campo das Relações
+Internacionais, particularmente na teoria de jogos de dois níveis de
+Putnam (1988) e suas subsequentes ampliações e aplicações. Entretanto,
+nosso framework se distingue ao aplicar-se a qualquer conexão entre
+jogos distintos, proporcionando insights únicos sobre a dinâmica de
+estratégias complementares e substitutas.
+
+Outra abordagem relacionada é a de ``issue linkages'' (Tollison \&
+Willett, 1979), que embora compartilhe algumas semelhanças com nosso
+framework, difere na medida em que foca na construção de acordos
+multidimensionais que geram benefícios mútuos, sem necessariamente
+antecipar as complementaridades ou substitutibilidades estratégicas.
 
 Note that any \texttt{footnote}s to the main text will automatically be
 assigned the superscript symbols 1, 2, 3, etc. by the class
@@ -664,91 +764,8 @@ which gives \({\bm \gamma}\), and
 \texttt{\{\textbackslash{}bm\ \textbackslash{}Gamma\}}, which gives
 \({\bm \Gamma}\).
 
-\hypertarget{acknowledgements}{%
-\section*{Acknowledgement(s)}\label{acknowledgements}}
-\addcontentsline{toc}{section}{Acknowledgement(s)}
-
-An unnumbered section,
-e.g.~\texttt{\textbackslash{}section*\{Acknowledgements\}}, may be used
-for thanks, etc.~if required and included \emph{in the non-anonymous
-version} before any Notes or References.
-
-\hypertarget{disclosure-statement}{%
-\section*{Disclosure statement}\label{disclosure-statement}}
-\addcontentsline{toc}{section}{Disclosure statement}
-
-An unnumbered section,
-e.g.~\texttt{\textbackslash{}section*\{Disclosure\ statement\}}, may be
-used to declare any potential conflict of interest and included \emph{in
-the non-anonymous version} before any Notes or References, after any
-Acknowledgements and before any Funding information.
-
-\hypertarget{funding}{%
-\section*{Funding}\label{funding}}
-\addcontentsline{toc}{section}{Funding}
-
-An unnumbered section,
-e.g.~\texttt{\textbackslash{}section*\{Funding\}}, may be used for grant
-details, etc.~if required and included \emph{in the non-anonymous
-version} before any Notes or References.
-
-\hypertarget{notes-on-contributors}{%
-\section*{Notes on contributor(s)}\label{notes-on-contributors}}
-\addcontentsline{toc}{section}{Notes on contributor(s)}
-
-An unnumbered section,
-e.g.~\texttt{\textbackslash{}section*\{Notes\ on\ contributors\}}, may
-be included \emph{in the non-anonymous version} if required. A
-photograph may be added if requested.
-
-\hypertarget{nomenclaturenotation}{%
-\section*{Nomenclature/Notation}\label{nomenclaturenotation}}
-\addcontentsline{toc}{section}{Nomenclature/Notation}
-
-An unnumbered section,
-e.g.~\texttt{\textbackslash{}section*\{Nomenclature\}} (or
-\texttt{\textbackslash{}section*\{Notation\}}), may be included if
-required, before any Notes or References.
-
-\hypertarget{notes}{%
-\section*{Notes}\label{notes}}
-\addcontentsline{toc}{section}{Notes}
-
-An unnumbered \texttt{Notes} section may be included before the
-References (if using the \texttt{endnotes} package, use the command
-\texttt{\textbackslash{}theendnotes} where the notes are to appear,
-instead of creating a \texttt{\textbackslash{}section*}).
-
-\hypertarget{references}{%
-\section{References}\label{references}}
-
-\hypertarget{references-cited-in-the-text}{%
-\subsection{References cited in the
-text}\label{references-cited-in-the-text}}
-
-\hypertarget{the-list-of-references}{%
-\subsection{The list of references}\label{the-list-of-references}}
-
-References should be listed at the end of the main text in alphabetical
-order by authors' surnames, then chronologically (earliest first). If
-references have the same author(s), editor(s), etc., arrange by year of
-publication, with undated works at the end. A single-author entry
-precedes a multi-author entry that begins with the same name. If the
-reference list contains two or more items by the same author(s) in the
-same year, add a, b, etc. and list them alphabetically by title.
-Successive entries by two or more authors when only the first author is
-the same are alphabetized by co-authors' surnames. If a reference has
-more than ten named authors, list only the first seven, followed by `et
-al.'. If a reference has no author or editor, order by title; if a date
-of publication is impossible to find, use `n.d.' in its place.
-
-The following list shows some sample references prepared in the Taylor
-\& Francis Chicago author-date style.
-
-\citep{Ade09, Alb05}
-
 \bibliographystyle{tfcad}
-\bibliography{interactcadsample.bib}
+\bibliography{Middle-Powers-bib.bib}
 
 
 \input{"appendix.tex"}

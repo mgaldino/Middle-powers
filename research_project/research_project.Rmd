@@ -1,7 +1,5 @@
 ---
-title: |
-  Taylor & Francis Rmarkdown template for authors (\LaTeX\-based 
-  \textsf{Interact} layout + Chicago author-date reference style)
+title: Potências Médias - projeto de pesquisa
 type: ARTICLE TEMPLATE
 author:
   - name: M. Galdino
@@ -14,11 +12,7 @@ affiliation:
 bibliography: Middle-Powers-bib.bib
 appendix: appendix.tex
 abstract: |
-  O conceito de potências médias, apesar de sua prevalência na literatura de Relações Internacionais (RI), enfrenta um desafio crítico de ambiguidade conceitual que limita sua utilidade analítica. Esta pesquisa visa abordar esse desafio propondo um novo arcabouço teórico que integra a teoria dos jogos não cooperativa, especificamente através da adaptação dos conceitos de estratégias complementares e substitutas. Ao fazer isso, o projeto tem como objetivo superar as divisões teóricas existentes e promover uma compreensão mais precisa e abrangente das potências médias.
-  
-Tradicionalmente, a RI concentrou-se na teoria do comportamento das grandes potências, negligenciando uma teoria inclusiva que explique o comportamento de estados de diferentes magnitudes. Este estudo argumenta pela necessidade de uma teoria do comportamento estatal que englobe não apenas as grandes potências, mas também as médias e pequenas, oferecendo uma maneira empírica de diferenciar esses grupos de países. Ao unificar as variáveis explicativas relacionadas ao poder, comportamento e identidade dos estados, propomos um caminho para uma validação empírica robusta, estabelecendo um programa de pesquisa progressivo no sentido Lakatos.
-
-Além de sua contribuição teórica, este projeto delineia um desenho de pesquisa empírica, priorizando o estudo de cabos diplomáticos como fontes primárias. Essas fontes são consideradas essenciais para testar as hipóteses derivadas de nossa abordagem teórica, possibilitando uma avaliação detalhada das estratégias adotadas pelas potências médias no cenário internacional. Assim, o projeto não apenas promete clarificar a categorização de potências médias, mas também fornece uma base para futuras investigações empíricas neste campo, contribuindo significativamente para a literatura existente e oferecendo novas ferramentas analíticas para pesquisadores e formuladores de políticas.
+  O conceito de potências médias, apesar de sua prevalência na literatura de Relações Internacionais (RI), enfrenta um desafio crítico de ambiguidade conceitual que limita sua utilidade analítica. Esta pesquisa visa abordar esse desafio propondo um novo arcabouço teórico que integra a teoria dos jogos não cooperativa, especificamente através da adaptação dos conceitos de estratégias complementares e substitutas. Ao fazer isso, o projeto tem como objetivo superar as divisões teóricas existentes e promover uma compreensão mais precisa e abrangente das potências médias. Tradicionalmente, a RI concentrou-se na teoria do comportamento das grandes potências, negligenciando uma teoria inclusiva que explique o comportamento de estados de diferentes magnitudes. Este estudo argumenta pela necessidade de uma teoria do comportamento estatal que englobe não apenas as grandes potências, mas também as médias e pequenas, oferecendo uma maneira empírica de diferenciar esses grupos de países. Ao unificar as variáveis explicativas relacionadas ao poder, comportamento e identidade dos estados, propomos um caminho para uma validação empírica robusta, estabelecendo um programa de pesquisa progressivo no sentido Lakatos. Além de sua contribuição teórica, este projeto delineia um desenho de pesquisa empírica, priorizando o estudo de cabos diplomáticos como fontes primárias. Essas fontes são consideradas essenciais para testar as hipóteses derivadas de nossa abordagem teórica, possibilitando uma avaliação detalhada das estratégias adotadas pelas potências médias no cenário internacional. Assim, o projeto não apenas promete clarificar a categorização de potências médias, mas também fornece uma base para futuras investigações empíricas neste campo, contribuindo significativamente para a literatura existente e oferecendo novas ferramentas analíticas para pesquisadores e formuladores de políticas.
 
 keywords: |
   Potências Médias; Teoria dos Jogos; Estratégias Complementares; Estratégias Substitutas; Cabos Diplomáticos;
@@ -29,343 +23,75 @@ header-includes: |
 output: rticles::tf_article
 ---
 
-# Introduction
+# Introdução
 
-In order to assist authors in the process of preparing a manuscript for a journal, the Taylor & Francis '\textsf{Interact}' layout style has been implemented as a \LaTeXe\ class file based on the `article` document class. A \textsc{Bib}\TeX\ bibliography style file and a sample bibliography are also provided in order to assist with the formatting of your references.
+A Teoria das Potências Médias, desde seu início (cf. @chaudhuri_1969; @holbraad_71), enfrentou problemas de clareza analítica. A dificuldade em conceituar quem seriam as potências médias, seja por alguma medida objetiva de poder (combinando um ou mais indicadores) ou por seu comportamento, é reveladora dessa confusão analítica. A despeito disso, a literatura continua a usar o conceito, variando na forma de defini-lo e operacionalizá-lo empiricamente, assim como nas várias tentativas de resolver os problemas conceituais.
 
-Commands that differ from or are provided in addition to standard \LaTeXe\ are described in this document, which is _not_ a substitute for a \LaTeXe\ tutorial.
+A concepção mais tradicional de potência média é baseada na posição que os estados ocupam no sistema internacional (por exemplo, @holbraad_84; @cooper_etal_93; @shin_12). Assim, países com capacidades médias ou medianas teriam um comportamento de política externa diferente ou previsível em relação a estados com maior ou menor capacidade. Essa diferenciação pode se dar tanto pela formação de interesses distintos quanto pelo estilo ou estratégia de atuação na esfera internacional (cf. @cooper_11 para uma revisão da literatura). No entanto, isso não é suficiente para operacionalizar o conceito de maneira consistente, uma vez que não há clareza sobre qual medida de capacidade deve ser usada (seja ela militar, econômica, diplomática ou uma combinação dessas e de outras variáveis), a posição relativa pode mudar dependendo da região geográfica considerada e a inclusão de variáveis como participação em alianças, ao modificar a medida de poder, acaba trazendo confusão analítica ao conceito (@cooper_11). O resultado dessa confusão é a inexistência de uma lista definida, no tempo e espaço, de quais países seriam potências médias, o que torna inviável testar se, de fato, há um comportamento distintivo na política externa desses países.
 
-The `interactcadsample.tex` file can be used as a template for a manuscript by cutting, pasting, inserting and deleting text as appropriate, using the preamble and the \LaTeX\ environments provided (e.g.\ `\begin{abstract}`, `\begin{keywords}`).
+Em segundo lugar, há teorias focadas no comportamento desses estados. O que seria distintivo das potências médias seria seu comportamento, tal como a adesão ao multilateralismo, a tentativa de agir como “bom cidadão”, a capacidade de atuar como mediador de conflitos, etc. (@schiavon_dominguez_16; @stephen_13; @welsh_04). 
 
-## The \textsf{Interact} class file
+O problema óbvio dessa abordagem é a impossibilidade de explicar comportamento com base em uma categorização do comportamento devido à óbvia circularidade. Além disso, essa abordagem tampouco contribuiu, ao menos, para observar um padrão de comportamento dos países tradicionalmente concebidos como potências médias. Alguns estudos combinam capacidades e comportamento para classificar os países, mas isso não resolve o problema de circularidade (@cooper_11).
 
-The `interact` class file preserves the standard \LaTeXe\ interface such that any document that can be produced using `article.cls` can also be produced with minimal alteration using the `interact` class file as described in this document.
+Por fim, mais recentemente, tem havido tentativas de conceituar potência média a partir da identidade dos estados, em particular aqueles que se autodefinem como potências médias (@hynek_07; @gecelovsky_09; @debhal_23).
 
-If your article is accepted for publication it will be typeset as the journal requires in Minion Pro and/or Myriad Pro. Since most authors will not have these fonts installed, the page make-up is liable to alter slightly with the change of font. Also, the `interact` class file produces only single-column format, which is preferred for peer review and will be converted to two-column format by the typesetter if necessary during preparation of the proofs. Please therefore do not try to match the typeset format exactly, but use the standard \LaTeX\ fonts instead and ignore details such as slightly long lines of text or figures/tables not appearing in exact synchronization with their citations in the text: these details will be dealt with by the typesetter. Similarly, it is unnecessary to spend time addressing warnings in the log file -- if your .tex file compiles to produce a PDF document that correctly shows how you wish your paper to appear, such warnings will not prevent your source files being imported into the typesetter's program.
+Esse espectro conceitual sugere uma continuidade com a tradição da RI no estudo das grandes potências. Tradicionalmente, a RI focou em uma teoria do comportamento das grandes potências, deixando um vazio analítico sobre o comportamento estatal além dessas. A categorização qualitativa de "grande potência" ou “superpotência” indica que outras categorias, como as "potências médias", podem ser analiticamente úteis, embora a sua utilidade ainda seja um ponto de debate intenso.
 
-## Submission of manuscripts prepared using _\LaTeX_
+Ante a complexidade desse cenário, parece claro que, para redescobrir a utilidade analítica do conceito de potências médias, é necessário um trabalho teórico e empírico de grandes proporções. Do lado teórico, parece-nos claro que qualquer que seja o marcador ou marcadores que distingam potências médias, essas variáveis precisam estar relacionadas também ao comportamento dos estados de outros tamanhos. Isso sugere que a pesquisa empírica nessa área precisa ser comparativa e incluir não apenas as pretensas potências médias, mas também os países que estariam em outras categorias.
 
-Manuscripts for possible publication should be submitted to the Editors for review as directed in the journal's Instructions for Authors, and in accordance with any technical instructions provided in the journal's ScholarOne Manuscripts or Editorial Manager site. Your \LaTeX\ source file(s), the class file and any graphics files will be required in addition to the final PDF version when final, revised versions of accepted manuscripts are submitted.
+O presente trabalho, portanto, parte dessa ambição como horizonte de pesquisa. Por outro lado, este é um projeto laborioso e que exigirá esforço colaborativo para ser empreendido. Assim, o que apresentamos a seguir é nossa estratégia para um primeiro passo nessa direção, sem a pretensão de delinear o caminho todo a ser percorrido. Além de ser mais realista, parece-nos mais efetivo, na medida em que facilita a correção de rotas que o trabalho de pesquisa e as descobertas não antecipadas demandam.
 
-Please ensure that any author-defined macros used in your article are gathered together in the preamble of your .tex file, i.e.\ before the `\begin{document}` command. Note that if serious problems are encountered in the coding of a document (missing author-defined macros, for example), the typesetter may resort to rekeying it.
+No nível teórico, o presente trabalho propõe uma solução ancorada em uma adaptação dos conceitos de estratégias complementares e substitutas da teoria dos jogos não cooperativa. Esta abordagem promete superar a ambiguidade conceitual em torno das potências médias, unificando os comportamentos dos estados numa única teoria que explique a diferenciação entre os três grupos de países - grandes, médias e pequenas potências. Argumentamos que tal teoria, ao enfatizar a centralidade das relações entre estratégias dos países em diferentes arenas de conflito (se complementares ou substitutas), abre caminho para uma nova agenda de pesquisa empírica.
 
-# Using the `interact` class file
+A perspectiva que adotamos aqui não é inteiramente nova, já que a interconexão entre jogos distintos e suas consequências nas decisões dos jogadores é um conceito que já foi explorado no campo das Relações Internacionais, particularmente na teoria de jogos de dois níveis de Putnam (1988) e suas subsequentes ampliações e aplicações. Entretanto, nosso framework se distingue ao aplicar-se a qualquer conexão entre jogos distintos, não apenas entre o nível doméstico e externo, proporcionando insights únicos sobre a dinâmica de estratégias complementares e substitutas.
 
-For convenience, simply copy the `interact.cls` file into the same directory as your manuscript files (you do not need to install it in your \TeX\ distribution). In order to use the `interact` document class, replace the command `\documentclass{article}` at the beginning of your document with the command `\documentclass{interact}`.
+Outra abordagem relacionada é a de "issue linkages" (Tollison & Willett, 1979), que embora compartilhe algumas semelhanças com nosso framework, difere na medida em que foca na construção de acordos multidimensionais que geram benefícios mútuos, sem necessariamente antecipar as complementaridades ou substitutibilidades estratégicas. Assim, embora haja precedentes, nossa abordagem teórica é pioneira no campo das relações internacionais.
 
-The following document-class options should _not_ be used with the `interact` class file:
+Do ponto de vista empírico, pretendemos construir uma base de dados de cabos diplomáticos de países em perspectiva comparada, consistindo de países dos mais variados tamanhos. A recente proliferação das leis de acesso à informação e iniciativas de dados abertos mundo afora (@zuffova_20) possibilita que, finalmente, tal tarefa possa ser empreendida com boa chance de sucesso.
 
-* `10pt`, `11pt`, `12pt` -- unavailable;
-* `oneside`, `twoside` -- not necessary, `oneside` is the default;
-* `leqno`, `titlepage` -- should not be used;
-* `twocolumn` -- should not be used (see Subsection~\ref{class});
-* `onecolumn` -- not necessary as it is the default style.
+Este estudo busca, portanto, consolidar a teoria de potências médias como um programa de pesquisa progressivo, no sentido proposto por Lakatos, mediante a conexão de variáveis explicativas - sejam elas relativas a poder, comportamento ou identidade - com hipóteses causais testáveis empiricamente. 
 
-To prepare a manuscript for a journal that is printed in A4 (two column) format, use the `largeformat` document-class option provided by `interact.cls`; otherwise the class file produces pages sized for B5 (single column) format by default. The `geometry` package should not be used to make any further adjustments to the page dimensions.
+A abordagem proposta oferece um caminho promissor para a superação dos desafios conceituais e metodológicos que têm caracterizado o estudo das potências médias até o momento. Por fim, pretendemos ilustrar essa perspectiva com um estudo de caso focado no Brasil e EUA, estudando os cabos diplomáticos disponíveis para ambos os países.
 
-<!-- If your manuscript has supplementary content you can prepare this using the `suppldata` document-class option, which will suppress the `article history' date. This option must _not_ be used on any primary content. -->
-
-# Additional features of the `interact` class file
-
-## Title, authors' names and affiliations, abstracts and article types
-
-## Abbreviations
-
-A list of abbreviations may be included if required, enclosed within an `abbreviations` environment, i.e.\ `\begin{abbreviations}`\ldots`\end{abbreviations}`, immediately following the `abstract` environment.
+Nas próximas seções, desenvolvemos um pouco mais o arcabouço teórico, para ilustrar o tipo de teorização que será realizada, e, em seguida, apresentamos como se dará a pesquisa empírica no estudo de caso que pretendemos realizar.
 
 
-## Keywords
+# Modelo Teórico
 
-A list of keywords may be included if required, enclosed within a `keywords` environment, i.e.\ `\begin{keywords}`\ldots`\end{keywords}`. Additional keywords in other languages (preceded by a translation of the word `keywords`) may also be included within the `keywords` environment if required.
+Em um artigo seminal sobre a aplicação da teoria dos jogos à economia, @bulow_etal_85 introduziu a ideia de jogos com estratégias complementares ou substitutas. Considerando as estratégias como variáveis contínuas (e.g., nível de investimento), estratégias são ditas complementares se o aumento no nível de uma estratégia por um agente torna ótimo para outro agente aumentar o nível de sua própria estratégia. Matematicamente, isso ocorre quando a derivada parcial cruzada do payoff de um agente, em relação à sua estratégia e à do outro jogador, é positiva. Em contraste, estratégias são substitutas quando o aumento na estratégia de um agente leva o outro a reduzir a sua, evidenciado por uma derivada parcial cruzada negativa.
+
+O exemplo arquetípico apresentado por @bulow_etal_1985 envolve dois mercados, $1$ e $2$, com demandas independentes onde a empresa $A$ monopoliza o primeiro mercado e compete com a empresa $B$ no segundo. Como os produtos de $A$ e $B$ no mercado $2$ são substitutos, o modelo de equilíbrio de Cournot demonstra que um comportamento mais agressivo de $A$ no mercado $1$ induz a empresa $B$ a ser menos agressiva no mercado $2$, evidenciando a substitutividade das estratégias.
+
+Esse modelo tem implicações significativas ao ser transportado para o contexto das Relações Internacionais, sugerindo que o ganho de um estado $A$ derivado de uma mudança em um jogo $1$ é afetado pela sua posição em um jogo $B$, seja como grande potência (monopolista), potência média (oligopolista) ou pequena potência (competidor puro).
+
+A aplicação deste arcabouço às Relações Internacionais permite discutir como grandes potências distinguem-se das potências médias pela capacidade de alterar os termos do jogo $1$, induzindo comportamentos específicos nos países envolvidos. Da mesma forma, potências médias podem adotar comportamentos de coalizões empreendedoras de norma (@ravenhill_2018), alterando exogenamente os custos para países em um jogo A, para induzir mudanças de comportamento em um jogo B.
+
+Para ilustrar o potencial analítico desse arcabouço, propomos um esboço informal de dois jogos distintos, demonstrando como a presença de estratégias complementares ou substitutas explica certos comportamentos e auxilia na categorização dos tamanhos das potências.
+
+Diferentemente da literatura existente, nossa abordagem torna a categorização de potência média dependente da estrutura da conectividade dos jogos. Assim, podemos clarificar a confusão conceitual presente na definição de potências médias na literatura, utilizando medidas de capacidade que influenciam a estrutura (complementar ou substituta) das estratégias, enquanto incorporamos variáveis contextuais (como a participação em alianças) e a identidade dos atores, na medida em que afetam suas preferências. Além disso, ao propor um mecanismo específico, podemos testar empiricamente as hipóteses derivadas dos modelos sem incorrer em circularidade argumentativa.
 
 
-## Subject classification codes
+## Modelos de Estratégias Complementares e Substitutas
 
-AMS, JEL or PACS classification codes may be included if required. The `interact` class file provides an `amscode` environment, i.e.\ `\begin{amscode}`\ldots`\end{amscode}`, a `jelcode` environment, i.e.\ `\begin{jelcode}`\ldots`\end{jelcode}`, and a `pacscode` environment, i.e.\ `\begin{pacscode}`\ldots`\end{pacscode}` to assist with this.
+Considere um jogo entre dois estados, $A$ e $B$, disputando um território de valor $X = [0,1]$, conforme proposto por Fearon (1995). O estado $A$ prefere um resultado próximo de $1$, enquanto $B$ favorece um resultado próximo de $0$. Na negociação diplomática para o conflito, o resultado será denotado por $x \in X$, com as utilidades $u_A(x)$ para $A$ e $u_B(1-x)$ para $B$. Cada estado possui uma utilidade esperada da guerra dada por: $p_a u(1) + (1-p)u(0) - c_a$ para $A$ e uma fórmula similar para $B$, com custo $c_b$. Segundo o modelo de barganha de Rubinstein, com horizonte infinito onde as partes fazem ofertas alternadas e excluindo temporariamente a opção de guerra, o equilíbrio de Nash perfeito em sub-jogo (sem a opção de guerra) seria dado por $(x, 1-x)$, onde $x = \frac{1 -\delta_A}{1 - \delta_A \delta_B}$. A opção da guerra, no entanto, restringe os valores de $(x, 1-x)$ que são preferíveis à guerra, com $x > \mathbb{E}[u^g_A]$ e $1 - x > \mathbb{E}[u^g_B]$ para que a opção diplomática seja estritamente preferível para ambos.
+
+A utilidade de estratégias complementares ou substitutas neste contexto torna-se evidente ao considerar diferentes cenários envolvendo grandes potências, potências médias e países pequenos. Por exemplo, em um cenário onde o estado $A$ é uma grande potência, a decisão sobre a alocação de recursos militares próximo à fronteira em conflito pode aumentar a sua probabilidade de vitória, influenciando assim as estratégias de negociação.
+
+Em contraste, em um conflito sobre a expropriação de uma empresa estrangeira, como um setor de extração de petróleo, a presença de um aliado do país $B$ pode compelir o país $A$ a ceder mais na negociação para não prejudicar a aliança com o país $C$. Isso ilustra como estratégias em um jogo podem influenciar os resultados de outro.
+
+# Pesquisa Empírica
 
 
-## Additional footnotes to the title or authors' names
+
+
+
+
+
 
 <!-- The `\thanks` command may be used to create additional footnotes to the title or authors' names if required. Footnote symbols for this purpose should be used in the order -->
 <!-- $^\ast$~(coded as `$^\ast$`), $\dagger$~(`$\dagger$`), $\ddagger$~(`$\ddagger$`), $\S$~(`$\S$`), $\P$~(`$\P$`), $\|$~(`$\|$`), -->
 <!-- $\dagger\dagger$~(`$\dagger\dagger$`), $\ddagger\ddagger$~(`$\ddagger\ddagger$`), $\S\S$~(`$\S\S$`), $\P\P$~(`$\P\P$`). -->
 
-Note that any `footnote`s to the main text will automatically be assigned the superscript symbols 1, 2, 3, etc. by the class file.^[If preferred, the `endnotes` package may be used to set the notes at the end of your text, before the bibliography. The symbols will be changed to match the style of the journal if necessary by the typesetter.]
-
-# Embedding R code
-
-## Code chunks
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE, out.width='80%'}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-# Some guidelines for using the standard features of \LaTeX
-
-## Sections
-
-The \textsf{Interact} layout style allows for five levels of section heading, all of which are provided in the `interact` class file using the standard \LaTeX\ commands `\section`, `\subsection`, `\subsubsection`, `\paragraph` and `\subparagraph`. Numbering will be automatically generated for all these headings by default.
-
-## Lists
-
-Numbered lists are produced using the `enumerate` environment, which will number each list item with arabic numerals by default. For example,
-
-1. first item
-2. second item
-3. third item
-
-Alternative numbering styles can be achieved by inserting an optional argument in square brackets to each `item`, e.g.\ `\item[(i)] first item`\, to create a list numbered with roman numerals at level one.
-
-Bulleted lists are produced using the `itemize` environment. For example,
-
-* First bulleted item
-* Second bulleted item
-* Third bulleted item
-
-## Figures
-
-```{r pressure-plot, fig.show='hide'}
-plot(pressure)
-```
-
-The `interact` class file will deal with positioning your figures in the same way as standard \LaTeX. It should not normally be necessary to use the optional `[htb]` location specifiers of the `figure` environment in your manuscript; you may, however, find the `[p]` placement option or the `endfloat` package useful if a journal insists on the need to separate figures from the text.
-
-Figure captions appear below the figures themselves, therefore the `\caption` command should appear after the body of the figure. For example, Figure~\ref{sample-figure} with caption and sub-captions is produced using the following commands:
-```
-\begin{figure}
-\centering
-\subfigure[An example of an individual figure sub-caption.]{%
-\resizebox*{5cm}{!}{\includegraphics{path/to/fig}}}\hspace{5pt}
-\subfigure[A slightly shorter sub-caption.]{%
-\resizebox*{5cm}{!}{\includegraphics{path/to/fig}}}
-\caption{Example of a two-part figure with individual sub-captions
- showing that captions are flush left and justified if greater
- than one line of text.} \label{sample-figure}
-\end{figure}
-```
-\begin{figure}
-\centering
-\subfigure[An example of an individual figure sub-caption.]{%
-\resizebox*{5cm}{!}{\includegraphics{`r knitr::fig_chunk('pressure-plot', 'pdf')`}}}\hspace{5pt}
-\subfigure[A slightly shorter sub-caption.]{%
-\resizebox*{5cm}{!}{\includegraphics{`r knitr::fig_chunk('pressure-plot', 'pdf')`}}}
-\caption{Example of a two-part figure with individual sub-captions
- showing that captions are flush left and justified if greater
- than one line of text.} \label{sample-figure}
-\end{figure}
-
-To ensure that figures are correctly numbered automatically, the `\label` command should be included just after the `\caption` command, or in its argument.
-
-The `\subfigure` command requires `subfigure.sty`, which is called in the preamble of the `interacttfssample.tex` file (to allow your choice of an alternative package if preferred) and included in the \textsf{Interact} \LaTeX\ bundle for convenience. Please supply any additional figure macros used with your article in the preamble of your .tex file.
-
-The source files of any figures will be required when the final, revised version of a manuscript is submitted. Authors should ensure that these are suitable (in terms of lettering size, etc.) for the reductions they envisage.
-
-The `epstopdf` package can be used to incorporate encapsulated PostScript (.eps) illustrations when using PDF\LaTeX, etc. Please provide the original .eps source files rather than the generated PDF images of those illustrations for production purposes.
-
-
-## Tables
-
-The `interact` class file will deal with positioning your tables in the same way as standard \LaTeX. It should not normally be necessary to use the optional `[htb]` location specifiers of the `table` environment in your manuscript; you may, however, find the `[p]` placement option or the `endfloat` package useful if a journal insists on the need to separate tables from the text.
-
-The `tabular` environment can be used as shown to create tables with single horizontal rules at the head, foot and elsewhere as appropriate. The captions appear above the tables in the \textsf{Interact} style, therefore the `\tbl` command should be used before the body of the table. For example, Table~\ref{sample-table} is produced using the following commands:
-\begin{table}
-\tbl{Example of a table showing that its caption is as wide as
- the table itself and justified.}
-{\begin{tabular}{lcccccc} \toprule
- & \multicolumn{2}{l}{Type} \\ \cmidrule{2-7}
- Class & One & Two & Three & Four & Five & Six \\ \midrule
- Alpha\textsuperscript{a} & A1 & A2 & A3 & A4 & A5 & A6 \\
- Beta & B2 & B2 & B3 & B4 & B5 & B6 \\
- Gamma & C2 & C2 & C3 & C4 & C5 & C6 \\ \bottomrule
-\end{tabular}}
-\tabnote{\textsuperscript{a}This footnote shows how to include
- footnotes to a table if required.}
-\label{sample-table}
-\end{table}
-```
-\begin{table}
-\tbl{Example of a table showing that its caption is as wide as
- the table itself and justified.}
-{\begin{tabular}{lcccccc} \toprule
- & \multicolumn{2}{l}{Type} \\ \cmidrule{2-7}
- Class & One & Two & Three & Four & Five & Six \\ \midrule
- Alpha\textsuperscript{a} & A1 & A2 & A3 & A4 & A5 & A6 \\
- Beta & B2 & B2 & B3 & B4 & B5 & B6 \\
- Gamma & C2 & C2 & C3 & C4 & C5 & C6 \\ \bottomrule
-\end{tabular}}
-\tabnote{\textsuperscript{a}This footnote shows how to include
- footnotes to a table if required.}
-\label{sample-table}
-\end{table}
-```
-
-To ensure that tables are correctly numbered automatically, the `\label` command should be included just before `\end{table}`.
-
-The `\toprule`, `\midrule`, `\bottomrule` and `\cmidrule` commands are those used by `booktabs.sty`, which is called by the `interact` class file and included in the \textsf{Interact} \LaTeX\ bundle for convenience. Tables produced using the standard commands of the `tabular` environment are also compatible with the `interact` class file.
-
-
-## Landscape pages
-
-If a figure or table is too wide to fit the page it will need to be rotated, along with its caption, through 90$^{\circ}$ anticlockwise. Landscape figures and tables can be produced using the `rotating` package, which is called by the `interact` class file. The following commands (for example) can be used to produce such pages.
-```
-\setcounter{figure}{1}
-\begin{sidewaysfigure}
-\centerline{\epsfbox{figname.eps}}
-\caption{Example landscape figure caption.}
-\label{landfig}
-\end{sidewaysfigure}
-```
-```
-\setcounter{table}{1}
-\begin{sidewaystable}
- \tbl{Example landscape table caption.}
-  {\begin{tabular}{@{}llllcll}
-    .
-    .
-    .
-  \end{tabular}}\label{landtab}
-\end{sidewaystable}
-```
-Before any such float environment, use the `\setcounter` command as above to fix the numbering of the caption (the value of the counter being the number given to the preceding figure or table). Subsequent captions will then be automatically renumbered accordingly. The `\epsfbox` command requires `epsfig.sty`, which is called by the `interact` class file and is also included in the \textsf{Interact} \LaTeX\ bundle for convenience.
-
-Please note that if the `endfloat` package is used, one or both of the commands
-```
-\DeclareDelayedFloatFlavor{sidewaysfigure}{figure}
-\DeclareDelayedFloatFlavor{sidewaystable}{table}
-```
-will need to be included in the preamble of your .tex file, after the `endfloat` package is loaded, in order to process any landscape figures and/or tables correctly.
-
-
-## Theorem-like structures
-
-A predefined `proof` environment is provided by the `amsthm` package (which is called by the `interact` class file), as follows:
-\begin{proof}
-More recent algorithms for solving the semidefinite programming relaxation are particularly efficient, because they explore the structure of the MAX-CUT problem.
-\end{proof}
-\noindent This was produced by simply typing:
-```
-\begin{proof}
-More recent algorithms for solving the semidefinite programming
-relaxation are particularly efficient, because they explore the
-structure of the MAX-CUT problem.
-\end{proof}
-```
-Other theorem-like environments (theorem, definition, remark, etc.) need to be defined as required, e.g.\ using `\newtheorem{theorem}{Theorem}` in the preamble of your .tex file (see the preamble of `interactcadsample.tex` for more examples). You can define the numbering scheme for these structures however suits your article best. Please note that the format of the text in these environments may be changed if necessary to match the style of individual journals by the typesetter during preparation of the proofs.
-
-
-## Mathematics
-
-### Displayed mathematics
-
-The `interact` class file will set displayed mathematical formulas centred on the page without equation numbers if you use the `displaymath` environment or the equivalent `\[...\]` construction. For example, the equation
-\[
- \hat{\theta}_{w_i} = \hat{\theta}(s(t,\mathcal{U}_{w_i}))
-\]
-was typeset using the commands
-```
-\[
- \hat{\theta}_{w_i} = \hat{\theta}(s(t,\mathcal{U}_{w_i}))
-\]
-```
-
-For those of your equations that you wish to be automatically numbered sequentially throughout the text for future reference, use the `equation` environment, e.g.
-\begin{equation}
- \hat{\theta}_{w_i} = \hat{\theta}(s(t,\mathcal{U}_{w_i}))
-\end{equation}
-was typeset using the commands
-```
-\begin{equation}
- \hat{\theta}_{w_i} = \hat{\theta}(s(t,\mathcal{U}_{w_i}))
-\end{equation}
-```
-
-Part numbers for sets of equations may be generated using the `subequations` environment, e.g.
-\begin{subequations} \label{subeqnexample}
-\begin{equation}
-     \varepsilon \rho w_{tt}(s,t) = N[w_{s}(s,t),w_{st}(s,t)]_{s},
-     \label{subeqnparta}
-\end{equation}
-\begin{equation}
-     w_{tt}(1,t)+N[w_{s}(1,t),w_{st}(1,t)] = 0,
-     \label{subeqnpartb}
-\end{equation}
-\end{subequations}
-which was typeset using the commands
-```
-\begin{subequations} \label{subeqnexample}
-\begin{equation}
-     \varepsilon \rho w_{tt}(s,t) = N[w_{s}(s,t),w_{st}(s,t)]_{s},
-     \label{subeqnparta}
-\end{equation}
-\begin{equation}
-     w_{tt}(1,t)+N[w_{s}(1,t),w_{st}(1,t)] = 0,   \label{subeqnpartb}
-\end{equation}
-\end{subequations}
-```
-<!-- This is made possible by the `amsmath` package, which is called by the class file. If you put a `\label` just after the `\begin{subequations}` command, references can be made to the collection of equations, i.e.\ `(\ref{subeqnexample})' in the example above. Or, as the example also shows, you can label and refer to each equation individually -- i.e.\ `(\ref{subeqnparta})' and `(\ref{subeqnpartb})'. -->
-
-Displayed mathematics should be given end-of-line punctuation appropriate to the running text sentence of which it forms a part, if required.
-
-### Math fonts
-
-#### Superscripts and subscripts
-Superscripts and subscripts will automatically come out in the correct size in a math environment (i.e.\ enclosed within `\(...\)` or `$...$` commands in running text, or within `\[...\]` or the `equation` environment for displayed equations). Sub/superscripts that are physical variables should be italic, whereas those that are labels should be roman (e.g.\ $C_p$, $T_\mathrm{eff}$). If the subscripts or superscripts need to be other than italic, they must be coded individually.
-
-#### Upright Greek characters and the upright partial derivative sign
-Upright lowercase Greek characters can be obtained by inserting the letter `u` in the control code for the character, e.g.\ `\umu` and `\upi` produce $\umu$ (used, for example, in the symbol for the unit microns -- $\umu\mathrm{m}$) and $\upi$ (the ratio of the circumference of a circle to its diameter). Similarly, the control code for the upright partial derivative $\upartial$ is `\upartial`. Bold lowercase as well as uppercase Greek characters can be obtained by `{\bm \gamma}`, for example, which gives ${\bm \gamma}$, and `{\bm \Gamma}`, which gives ${\bm \Gamma}$.
-
-
-# Acknowledgement(s) {-}
-
-An unnumbered section, e.g.\ `\section*{Acknowledgements}`, may be used for thanks, etc.\ if required and included _in the non-anonymous version_ before any Notes or References.
-
-# Disclosure statement {-}
-
-An unnumbered section, e.g.\ `\section*{Disclosure statement}`, may be used to declare any potential conflict of interest and included _in the non-anonymous version_ before any Notes or References, after any Acknowledgements and before any Funding information.
-
-# Funding {-}
-
-An unnumbered section, e.g.\ `\section*{Funding}`, may be used for grant details, etc.\ if required and included _in the non-anonymous version_ before any Notes or References.
-
-# Notes on contributor(s) {-}
-
-An unnumbered section, e.g.\ `\section*{Notes on contributors}`, may be included _in the non-anonymous version_ if required. A photograph may be added if requested.
-
-# Nomenclature/Notation {-}
-
-An unnumbered section, e.g.\ `\section*{Nomenclature}` (or `\section*{Notation}`), may be included if required, before any Notes or References.
-
-# Notes {-}
-
-An unnumbered `Notes` section may be included before the References (if using the `endnotes` package, use the command `\theendnotes` where the notes are to appear, instead of creating a `\section*`).
-
 # References
 
-## References cited in the text
 
-## The list of references
-
-References should be listed at the end of the main text in alphabetical order by authors' surnames, then chronologically (earliest first). If references have the same author(s), editor(s), etc., arrange by year of publication, with undated works at the end.
-A single-author entry precedes a multi-author entry that begins with the same name.
-If the reference list contains two or more items by the same author(s) in the same year, add a, b, etc. and list them alphabetically by title.
-Successive entries by two or more authors when only the first author is the same are alphabetized by co-authors' surnames.
-If a reference has more than ten named authors, list only the first seven, followed by 'et al.'.
-If a reference has no author or editor, order by title; if a date of publication is impossible to find, use `n.d.' in its place.
-
-The following list shows some sample references prepared in the Taylor & Francis Chicago author-date style.
-
-[@Ade09; @Alb05]
