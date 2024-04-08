@@ -1,0 +1,109 @@
+---
+title: "Potências Médias: Um Novo Arcabouço Teórico e Abordagem Empírica"
+author: "Manoel Galdino"
+date: "2023-04-08"
+output: 
+  beamer_presentation:
+    theme: "Madrid"
+    colortheme: "dolphin"
+---
+
+## Resumo
+
+O conceito de potências médias enfrenta um desafio crítico de ambiguidade conceitual que limita sua utilidade analítica. Esta pesquisa propõe um novo arcabouço teórico que integra a teoria dos jogos não cooperativa, visando superar as divisões teóricas existentes e promover uma compreensão mais precisa das potências médias.
+
+
+## Introdução
+
+O conceito de potências médias é amplamente utilizado na literatura de Relações Internacionais, mas sofre de ambiguidade conceitual. Este trabalho busca clarificar este conceito através de uma abordagem inovadora que une teoria dos jogos e análise empírica.
+
+
+## Revisão da Literatura: Potências Médias (p. I)
+
+### Conceituação Tradicional
+
+- A concepção mais tradicional baseia-se na posição que os estados ocupam no sistema internacional, considerando países com capacidades médias ou medianas (Holbraad, 1984; Cooper, Higgott, and Nossal, 1993; Shin, 2012). Sofre de Ambiguidade na medida de capacidade (militar, econômica, diplomática) e na definição do comportamento de política externa distintivo (Cooper, 2011).
+
+### Teorias Focadas no Comportamento
+
+- Distinção das potências médias pelo comportamento, como a adesão ao multilateralismo e a capacidade de atuar como mediadores de conflitos (Schiavon and Domínguez, 2016; Stephen, 2013; Welsh, 2004).
+
+## Revisão da Literatura: Potências Médias (p. II)
+
+### Abordagens Recentes
+
+- Tentativas de conceituar potência média a partir da identidade dos estados, em particular aqueles que se autodefinem como potências médias (Hynek, 2007; Gecelovsky, 2009; de Bhal, 2023).
+
+### Necessidade de uma Nova Abordagem
+
+- A literatura sugere a necessidade de uma abordagem mais robusta que integre capacidade, comportamento e identidade para uma definição mais precisa e útil analiticamente.
+
+## Modelo Teórico
+
+O modelo proposto introduz a ideia de estratégias complementares e substitutas em um contexto de teoria dos jogos não cooperativa. Essa abordagem permite a análise das interações entre diferentes potências em cenários internacionais diversos.
+
+### Estratégias Complementares e Substitutas
+
+Analisamos como as estratégias de potências médias se complementam ou substituem nas dinâmicas globais, afetando diretamente a formação de alianças e a condução de políticas externas.
+
+## Pesquisa Empírica (p. I)
+
+
+### Objetivo
+
+- Explorar cabos diplomáticos para entender as estratégias de potências médias, aplicando técnicas avançadas de PLN para analisar o conteúdo textual.
+
+### Fonte de Dados
+
+- Cabos diplomáticos disponíveis publicamente.
+- Inicialmente Brasil e EUA
+- Objetivo é fazer pesquisa comparada expandindo para mais países.
+
+### Metodologia: Word Embeddings
+
+- **Word embeddings**: Representações vetoriais de palavras que capturam contextos semânticos e relações entre termos.
+- Transformação de texto em vetores, facilitando a identificação de padrões e relações semânticas.
+- Análise de similaridade semântica para identificar temas recorrentes e a evolução das estratégias diplomáticas.
+
+## Pesquisa Empírica (p. II)
+
+### Processo de Análise
+
+1. **Treinamento/Utilização de Modelos de Embeddings**: Aplicação de word embeddings para converter texto em representações vetoriais.
+2. **Análise de Similaridade e Clustering**: Agrupamento de vetores para identificar temas comuns e analisar a proximidade entre conceitos estratégicos.
+3. **Visualização**: Uso de técnicas de redução de dimensionalidade (SVD etc.) para visualizar clusters de temas e relações entre eles.
+
+### Insights Esperados
+
+- Compreensão das prioridades estratégicas e mudanças nas abordagens diplomáticas.
+- Identificação de padrões de cooperação ou confronto nas relações internacionais.
+- Revelação de como as potências médias posicionam-se em relação a grandes potências e pequenos estados.
+
+## Pesquisa Empírica (p. III)
+
+### Desafios
+
+- Interpretação de embeddings em contextos específicos de cabos diplomáticos.
+- Necessidade de validação qualitativa dos clusters e temas identificados.
+
+### Conclusão
+
+A aplicação de técnicas de PLN e análise de word embeddings em cabos diplomáticos promete insights profundos sobre as estratégias de potências médias, contribuindo para o avanço da compreensão teórica e empírica no campo das Relações Internacionais.
+
+
+## Conclusões
+
+Nossas descobertas apontam para a necessidade de um arcabouço teórico renovado que melhor capture a complexidade e a dinâmica das potências médias na política global.
+
+## Referências
+
+- Bulow, J., Geanakoplos, J., & Klemperer, P. (1985). Multimarket Oligopoly: Strategic Substitutes and Complements.
+- Fearon, J. D. (1995). Rationalist explanations for war.
+- Cooper, A. F., Higgott, R. A., & Nossal, K. R. (1993). *Relocating Middle Powers: Australia and Canada in a Changing World Order*.
+- Holbraad, C. (1984). *Middle Powers in International Politics*.
+- Shin, D.-m. (2012). "The Concept of Middle Power and the Case of the ROK."
+- Cooper, D. A. (2011). “Challenging Contemporary Notions of Middle Power Influence.”
+- Schiavon, J. A., & Domínguez, D. (2016). "Mexico, Indonesia, South Korea, Turkey, and Australia (MIKTA): Middle, Regional, and Constructive Powers Providing Global Governance."
+- Hynek, N. (2007). "Humanitarian Arms Control, Symbiotic Functionalism and the Concept of Middlepowerhood."
+- de Bhal, J. (2023). “Rethinking ‘Middle Powers’ as a Category of Practice.”
+

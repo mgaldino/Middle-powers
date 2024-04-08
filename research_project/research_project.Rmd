@@ -79,10 +79,34 @@ A utilidade de estratégias complementares ou substitutas neste contexto torna-s
 
 Em contraste, em um conflito sobre a expropriação de uma empresa estrangeira, como um setor de extração de petróleo, a presença de um aliado do país $B$ pode compelir o país $A$ a ceder mais na negociação para não prejudicar a aliança com o país $C$. Isso ilustra como estratégias em um jogo podem influenciar os resultados de outro.
 
+De maneira geral, o objetivo destes dois esboços de jogos é ilustrar que o comportamento dos estados é influenciado pela interconexão entre diferentes jogos e pela situação específica em que se encontram os países. Isto é, as estratégias ótimas de um país podem ser manipuladas por terceiros (superpotências) ou, alternativamente, o próprio país pode ter a oportunidade de manipular as estratégias de outros países (como potências médias em contextos regionais). Portanto, o que distingue uma superpotência de uma potência média não é apenas a capacidade de influenciar as estratégias ótimas de terceiros, mas sim o contexto em que essa influência ocorre: enquanto uma superpotência pode exercer sua influência em conflitos de qualquer escala, uma potência média pode fazê-lo predominantemente em contextos de conflitos regionais.
+
+Por outro lado, uma superpotência pode se encontrar em uma situação similar à de um monopolista, conforme descrito por @bulow_etal_85, adotando uma estratégia menos agressiva devido à conexão entre diferentes arenas (jogos), precisamente porque detém a posição de superpotência. Alternativamente, pode adotar estratégias de construção multilateral, que são típicas de potências médias, se essas representarem o equilíbrio do jogo. Deste modo, sugerimos que não existe um comportamento intrínseco ou típico às potências médias, grandes ou pequenas. O que determina o comportamento de cada tipo de país é a frequência e a natureza dos jogos enfrentados, que incentivam certos tipos de respostas como estratégias ótimas. Assim, esse arcabouço teórico ajuda a explicar a dificuldade em identificar um padrão simplificado de comportamento entre as diferentes potências.
+
 # Pesquisa Empírica
 
+Conforme propomos, o avanço na teoria das potências médias exige o desenvolvimento dentro de uma teoria mais abrangente sobre o comportamento estatal, que estabeleça ligações claras entre diferentes grupos de países e seus comportamentos previsíveis na arena internacional. Para validar a utilidade analítica da categoria de potências médias, é necessário caracterizar as estratégias dos agentes de forma precisa. Uma pesquisa empírica, orientada teoricamente, é essencial para testar hipóteses relacionadas às características dos jogos em que os países estão inseridos e seus comportamentos. Esta abordagem permite, posteriormente, agrupar essas características em clusters identificáveis, facilitando a distinção de potências médias.
+
+Como ponto de partida para nossa investigação, escolhemos analisar as relações diplomáticas entre Brasil e Estados Unidos em relação à China. A seleção destes dois países fundamenta-se tanto em razões pragmáticas — a disponibilidade de cabos diplomáticos — quanto teóricas, ao considerar que representam, respectivamente, uma superpotência e um potencial candidato a potência média. Se a teoria que defendemos se mostrar aplicável, esses casos específicos proporcionarão um terreno fértil para sua validação. Embora isso não garanta a generalização da teoria para outros casos, iniciar a pesquisa por esses candidatos promissores é uma estratégia metodologicamente mais frutífera do que a escolha de casos mais complexos e que exijam mais nuances e qualificações.
+
+A escolha por analisar cabos diplomáticos decorre de sua capacidade de revelar as preocupações mais autênticas e sinceras dos países envolvidos, diferenciando-se dos comportamentos que são observáveis publicamente e, por vezes, estrategicamente calculados. Esses documentos oferecem uma oportunidade ímpar para testar hipóteses derivadas da modelagem de jogos complementares e substitutos.
 
 
+A título de exemplo, especificamos os tipos de hipóteses que temos em mente. Podemos derivar, a partir do desenho de jogos com estratégias substitutas, que países capazes de manipular condições exógenas do jogo o farão para induzir o oponente a adotar estratégias menos agressivas. Portanto, é razoável esperar que tais movimentações estratégicas ocorram entre potências médias com uma frequência distinta em comparação às grandes potências e superpotências. Isso nos permite formular a seguinte hipótese empírica para ser testada:
+
+$H_a$: A frequência com que superpotências manipulam as estratégias de outros países é tanto maior quanto maior o poder do país.
+
+A análise de cabos diplomáticos, cruzada com medidas tradicionais de poder, permitirá testar essa hipótese empiricamente. Será essencial desenvolver uma metodologia para mensurar, nos cabos diplomáticos, a manipulação de estratégias. Se operacionalizada com êxito, essa variável nos permitirá testar a correlação entre poder e frequência de manipulação, assim como facilitar a categorização dos estados em clusters conforme a frequência de manipulação. Esperamos, assim, distinguir potências médias de superpotências e pequenos estados.
+
+No contexto atual do estudo, a predominância desse comportamento por parte dos EUA em relação ao Brasil pode oferecer poucas conclusões novas, dada a previsibilidade do resultado. O objetivo desta investigação, no momento, é demonstrar como realizar a análise de forma consistente e rigorosa, preparando o terreno para expandi-la a mais países e, assim, explorar plenamente o potencial de nossa abordagem. A clareza dos resultados esperados serve como um teste de validação para o tratamento empírico dos dados.
+
+Uma segunda hipótese, derivada de nosso framework, considera a importância geográfica dos conflitos. Podemos classificá-los, de forma binária, como regionais ou globais/multiregionais. Presumimos que superpotências possuam capacidade de manipulação nos dois contextos, enquanto as potências médias tenham essa capacidade limitada a questões regionais. Assim, formulamos:
+
+$H_{b1}$: A frequência relativa com que potências médias manipulam jogos é maior em questões regionais do que em globais, diferença não observada em superpotências.
+
+$H_{b2}$: A frequência relativa com que potências médias manipulam jogos é maior em questões regionais do que em globais, enquanto para superpotências, a relação é inversa.
+
+Observa-se que grandes potências, em alguns casos contraintuitivamente classificadas como potências médias por alguns autores (por exemplo, Alemanha, Reino Unido)^[cf. @trommer_17, @otte_99], podem não se distinguir significativamente das chamadas potências médias. Embora esta investigação não explore empiricamente tal distinção no momento, a inclusão de mais casos permitirá uma análise mais detalhada dessa hipótese discutida na literatura.
 
 
 
